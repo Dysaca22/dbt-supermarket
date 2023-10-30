@@ -16,9 +16,9 @@ Se responden las siguientes preguntas como consultas:
 ## Persistencia
 Se configura dbt para que los resultados de las transformaciones se materializan las tablas y en el caso de las consultas como vistas en BigQuery.
 
---
+----
 
-__models__
+_models_
 
 - Clientes
     Materialización de vista a tabla de la tabla de Clientes.
@@ -30,7 +30,7 @@ __models__
     Imputación de valores faltantes en los diferentes valores a través de la mediana.
     Materialización de vista a tabla de la tabla de Olimpica.
 
-- __querys__
+- _querys_
     - AverageSpending
         Se seleccionan los productos que contengan la palabra ``Vino Tinto" del inventario de Olimpica y Exito. Se calcula el recuento de compras por producto y se agrupando por producto. Finalmente, se calcula el total gastado en cada producto multiplicando la cantidad comprada por su precio. Y se calcula el promedio por almacen dividiendo la suma total del gasto entre la suma total de la cantidad, para obtener el costo promedio por unidad de vino tinto en cada almacén.
     - TopBuyers
