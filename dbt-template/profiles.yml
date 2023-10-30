@@ -1,0 +1,14 @@
+dbt-mineria:
+  outputs:
+    dev:
+      dataset: Supermercado
+      job_execution_timeout_seconds: 1200
+      job_retries: 1
+      keyfile: /workspaces/codespaces-blank/dbt-template/key.json
+      location: US
+      method: service-account
+      priority: interactive
+      project: mewhen-394014
+      threads: 1
+      type: bigquery
+  target: dev
