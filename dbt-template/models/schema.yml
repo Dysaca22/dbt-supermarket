@@ -1,14 +1,14 @@
 version: 2
 
 sources:
-  - name: Supermercado                                        # conjunto de datos
-    database: mewhen-394014                                   # proyecto
+  - name: Supermercado
+    database: mewhen-394014
     tables:
-      - name: Clientes_EXT                                    # tabla
-        description: Tabla de información general del viento  # descripción tabla
-      - name: Compras_EXT                                     # tabla
-        description: Tabla de información general del viento  # descripción tabla
-      - name: Olimpica_EXT                                    # tabla
-        description: Tabla de información general del viento  # descripción tabla
-      - name: Exito_EXT                                       # tabla
-        description: Tabla de información general del viento  # descripción tabla
+      - name: Clientes_EXT
+        description: Tabla de la información de los clientes 
+      - name: Compras_EXT 
+        description: Tabla de información de las compras realizadas
+      - name: Olimpica_EXT
+        description: Tabla de información inventario de supermercado Olimpica
+      - name: Exito_EXT
+        description: Tabla de información inventario de supermercado Exito

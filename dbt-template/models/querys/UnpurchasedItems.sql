@@ -1,3 +1,5 @@
+{{ config(materialized='view') }}
+
 SELECT o.Codigo
 FROM {{ ref('Olimpica') }} o
 LEFT JOIN {{ ref('Compras') }} c
