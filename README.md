@@ -20,24 +20,24 @@ Se configura dbt para que los resultados de las transformaciones se materializan
 
 _models_
 
-- Clientes
+- Clientes_
     Materialización de vista a tabla de la tabla de Clientes.
-- Compras
+- Compras_
     Materialización de vista a tabla de la tabla de Compras.
-- Exito
+- Exito_
     Materialización de vista a tabla de la tabla de Exito.
-- Olimpica
+- Olimpica_
     Imputación de valores faltantes en los diferentes valores a través de la mediana.
     Materialización de vista a tabla de la tabla de Olimpica.
 
 - _querys_
-    - AverageSpending
+    - AverageSpending_
         Se seleccionan los productos que contengan la palabra ``Vino Tinto" del inventario de Olimpica y Exito. Se calcula el recuento de compras por producto y se agrupando por producto. Finalmente, se calcula el total gastado en cada producto multiplicando la cantidad comprada por su precio. Y se calcula el promedio por almacen dividiendo la suma total del gasto entre la suma total de la cantidad, para obtener el costo promedio por unidad de vino tinto en cada almacén.
-    - TopBuyers
+    - TopBuyers_
         Se seleccionan los clientes que más compraron productos tanto en el supermercado Olimpica como Exito, contando cuántas compras hicieron. Se ordena este conjunto combinado por la cantidad de compras en orden descendente para identificar a los principales compradores de ambas tiendas juntos.
-    - PopularPurchases
+    - PopularPurchases_
         Se cuenta la cantidad de veces que aparece cada producto se ordena de manera descendente y se toma el top 3 de estos.
-    - UniqueOlimpicaBuyers
+    - UniqueOlimpicaBuyers_
         Se seleccionan los distintos clientes que han comprado en el supermercado Olimpica y se compara con la selección de los distintos clientes que han comprado en el supermercado Exito para tomar aquellos que han comprado en Olimpica y no en Exito. (No existen clientes que cumplan con estas características)
-    - UnpurchasedItems
+    - UnpurchasedItems_
         Se seleccionan los códigos de productos del supermercado Olimpica y Exito que no están presentes en la tabla de compras. Posteriormente, los códigos de productos que no se han encontrado en las tablas de compras de los supermercados Olimpica y Exito y los presenta en orden ascendente según sus códigos.
