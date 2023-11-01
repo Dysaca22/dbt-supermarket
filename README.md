@@ -1,6 +1,7 @@
 # dbt-supermarket
 
 Análisis de los precios del mercado local para dos "marcas" reconocidas y brindaremos información sobre diversas consultas relacionadas con el negocio.
+Looker Studio: https://lookerstudio.google.com/reporting/82eb49c1-0f14-43e2-9816-982a78fc1751
 
 ## Transformación
 Creación de modelos en dbt para limpiar y transformar los datos. Se imputa los valores faltantes en los diferentes valores a través de la mediana en el supermercado Olimpica.
@@ -9,8 +10,8 @@ Creación de modelos en dbt para limpiar y transformar los datos. Se imputa los 
 Se responden las siguientes preguntas como consultas:
 1. **Gasto promedio**: gasto promedio en ``Vino Tinto" tanto en las tiendas OLIMPICA como EXITO.
 2. **Principales compradores**: compradores destacados en los puntos de venta OLIMPICA y EXITO.
-3. **Unique Olimpica Buyers**: clientes que han realizado compras específicamente en OLIMPICA pero no en EXITO
-4. **Compras populares**: principales productos que las personas compran con frecuencia.
+3. **Compradores esclusivos de Olimpica**: clientes que han realizado compras específicamente en OLIMPICA pero no en EXITO
+4. **Productos más comprados**: principales productos que las personas compran con frecuencia.
 5. **Artículos no comprados**: productos que nunca han sido comprados por los clientes.
 
 ## Persistencia
