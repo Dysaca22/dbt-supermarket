@@ -1,6 +1,7 @@
 # dbt-supermarket
 
 Análisis de los precios del mercado local para dos "marcas" reconocidas y brindaremos información sobre diversas consultas relacionadas con el negocio.
+
 Looker Studio: https://lookerstudio.google.com/reporting/82eb49c1-0f14-43e2-9816-982a78fc1751
 
 ## Transformación
